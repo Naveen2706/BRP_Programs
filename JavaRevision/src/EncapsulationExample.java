@@ -1,5 +1,8 @@
 public class EncapsulationExample {             //Encapuslated class
-    private String name;
+    private String name;            /* To achieve encapsulation in Java −
+                                        Declare the variables of a class as private.
+                                        Provide public setter and getter methods to modify and view the variables values. */
+
     private int age;
 
     public String getName() {

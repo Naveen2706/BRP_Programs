@@ -1,4 +1,4 @@
-public enum Tastes {                                                //enum outside class
+public enum TastesEnum {                                                //enum outside class
     SWEET,
     SPICY,
     BITTER,
@@ -13,7 +13,7 @@ class Main3 {
     }
 
     public static void main(String[] args) {
-        Tastes objTastes = Tastes.SWEET;                           //initialising enum 1
+        TastesEnum objTastes = TastesEnum.SWEET;                           //initialising enum 1
         System.out.println("enum 1 :" + objTastes);
         WorkShifts objWork = WorkShifts.MORNING;                   //initialising enum 2
         System.out.println("enum 2 :" + objWork);

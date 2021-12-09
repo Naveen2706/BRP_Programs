@@ -15,6 +15,7 @@ public class ValueDuplicacyCheck {
         }
         System.out.println(intList);
         System.out.println(checkValueRepetition(intList));
+        scanner.close();
     }
 
     static boolean checkValueRepetition(ArrayList<Integer> intList) {

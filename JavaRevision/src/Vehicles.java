@@ -1,15 +1,12 @@
 interface Vehicles {                     //interface 1
     public void vehicleModel();          //abstract methods- no body
-
     public void vehicleSound();
-
     public void vehicleType();
 }
 
 interface WheelsOfVehicle {             //interface 2
 
     public void wheelBrand();
-
     void numOfWheels();
 }
 
